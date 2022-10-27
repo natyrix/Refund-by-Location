@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+betting_example/node_modules
 # Distribution / packaging
 .Python
 build/
