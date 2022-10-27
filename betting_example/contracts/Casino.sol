@@ -1,5 +1,6 @@
-pragma solidity >= 0.4.20;
-contract Casino {
+// pragma solidity >=0.4.22 <0.9.0;
+pragma solidity ^ 0.4.20;
+contract Casino { 
    address public owner;
 
     uint256 public minimumBet;
@@ -62,5 +63,11 @@ contract Casino {
             if(winners[j] != address(0)) // Check that the address in this fixed array is not empty
             winners[j].transfer(winnerEtherAmount);
         }
+        resetData();
+    }
+    function resetData(){
+        players.length = 0; // Delete all the players array
+        totalBet = 0;
+        numberOfBets = 0;
     }
 }
