@@ -1,2 +1,72 @@
+
+
 # Refund-by-Location
 The refund by location smart contract is aimed to be used when one party, for example an employer, agrees to pay another party, for example an employee, for being present in a certain geographic area for a certain duration.
+
+**Table of Contents**
+
+- [Refund-by-Location](#Refund-by-Location)
+  - [Overview](#overview)
+  - [About](#about)
+  - [Project Structure](#project-structure)
+    - [betting_example](#betting_example)
+    - [refund_contract](#refund_contract)
+    - [Refund-By-Location-Frontend](#Refund-By-Location-Frontend)
+    - [.github](#.github)
+    - [root folder](#root-folder)
+
+***
+
+## Overview
+
+This repository is used for week 10 challenge of 10Academy. The instructions for this project can be found in the challenge document.
+
+The refund by location smart contract is aimed to be used when one party, for
+example, an employer, agrees to pay another party, for example, an
+employee, for being present in a certain geographic area for a certain
+duration. The employee’s phone sends its GPS location to a smart contract at
+a certain interval. Based on the pre-agreed contract codified in an Ethereum
+smart contract, a cryptocurrency payment is executed when all the agreed
+conditions are met.
+If at any point, the GPS sensor indicates that an employee is outside the range
+of the agreed GPS area, the contract state will be updated to indicate that it is
+out of compliance.
+
+
+![Alt text](img.png?raw=true "Map")
+
+## About
+
+Produce an Ethereum based dApp that has both the smart contract tested
+and deployed in a testnet and a front end that will allow monitoring of the
+status.
+
+
+## Project Structure
+The repository has a number of files including python scripts, jupyter notebooks, raw and cleaned data, and text files. Here is their structure with a brief explanation.
+
+### betting_example
+- Example implementation of https://medium.com/ethereum-developers/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e
+
+### refund_contract
+- Truffle implementation of this project
+
+### Refund-By-Location-Frontend
+- Front end submodule created using reactjs
+
+***
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/natyrix/Refund-by-Location.svg?style=for-the-badge
+[contributors-url]: https://github.com/natyrix/Refund-by-Location/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/natyrix/Refund-by-Location.svg?style=for-the-badge
+[forks-url]: https://github.com/natyrix/Refund-by-Location/network/members
+[stars-shield]: https://img.shields.io/github/stars/natyrix/Refund-by-Location.svg?style=for-the-badge
+[stars-url]: https://github.com/natyrix/Refund-by-Location/stargazers
+[issues-shield]: https://img.shields.io/github/issues/natyrix/Refund-by-Location.svg?style=for-the-badge
+[issues-url]: https://github.com/natyrix/Refund-by-Location/issues
