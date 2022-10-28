@@ -15,9 +15,10 @@ contract Casino {
     // The address of the player and => the user info   
     mapping(address => Player) public playerInfo;
 
-    constructor (uint256 _minimumBet) public {
+    constructor () public {
         owner = msg.sender;
-        if(_minimumBet != 0 ) minimumBet = _minimumBet;
+        // if(_minimumBet != 0 ) 
+        minimumBet = 10;
     }
     function kill() public {
         if(msg.sender == owner) selfdestruct(owner);
