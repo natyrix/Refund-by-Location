@@ -100,7 +100,7 @@ contract RefundByLocation{
         return true;
     }
 
-    function create_contract(address _employer_address, address _employee_address, uint[2] memory lat, uint[2] memory lng, uint radius) public returns(bool){
+    function create_contract(address _employer_address, address _employee_address, uint[2] memory lat, uint[2] memory lng, uint radius) public{
         Employer memory emplr;
         bool is_employer = false;
         for(uint i=0;i<employercount;i++){
@@ -111,7 +111,7 @@ contract RefundByLocation{
             }
         }
         if(!is_employer){
-            return false;
+            // return false;
         }
         Employee memory emplee;
         bool is_employee = false;
@@ -142,6 +142,6 @@ contract RefundByLocation{
         );
         contract_info_count++;
         
-        return true;
+        // return true;
     }
 }
