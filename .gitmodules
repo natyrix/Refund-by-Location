@@ -2,3 +2,7 @@
 	path = Refund-By-Location-Frontend
 	url = https://github.com/natyrix/Refund-By-Location-Frontend
 	branch = main
+[submodule "Refund-by-Location-Flutter"]
+	path = Refund-by-Location-Flutter
+	url = https://github.com/natyrix/Refund-by-Location-Flutter
+	branch = main
