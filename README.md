@@ -12,6 +12,7 @@ The refund by location smart contract is aimed to be used when one party, for ex
     - [betting_example](#betting_example)
     - [refund_contract](#refund_contract)
     - [Refund-By-Location-Frontend](#Refund-By-Location-Frontend)
+    - [Refund-By-Location-Flutter](#Refund-By-Location-Flutter)
     - [.github](#.github)
     - [root folder](#root-folder)
 
@@ -53,6 +54,11 @@ The repository has a number of files including python scripts, jupyter notebooks
 
 ### Refund-By-Location-Frontend
 - Front end submodule created using reactjs
+
+
+### Refund-By-Location-Flutter
+- Mobile app submodule created using flutter
+
 
 ***
 
