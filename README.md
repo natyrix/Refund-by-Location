@@ -15,6 +15,7 @@ The refund by location smart contract is aimed to be used when one party, for ex
     - [Refund-By-Location-Flutter](#Refund-By-Location-Flutter)
     - [.github](#.github)
     - [root folder](#root-folder)
+    - [Installation-guide](#Installation-guide)
 
 ***
 
@@ -55,14 +56,47 @@ The repository has a number of files including python scripts, jupyter notebooks
 ### Refund-By-Location-Frontend
 - Front end submodule created using reactjs
 ***
+- Inbound Location
 ![Alt text](LcoationDetialMap.png?raw=true "Map")
+- Out of bound Location
 ![Alt text](LocationDetailMap3Outbound.png?raw=true "Map")
 
 
 ### Refund-By-Location-Flutter
 - Mobile app submodule created using flutter
 ***
+- Inbound Location
 ![Alt text](HistoryWithBoundaries.jpg?raw=true "Map")
+
+***
+### Installation-guide
+
+## Smart Contract usage guide
+```bash
+git clone https://github.com/natyrix/Refund-by-Location.git
+cd Refund-by-Location
+npm -g install truffle
+npm install
+truffle compile
+truffle deploy --network <Desired network>
+```
+
+
+## Frontend usage guide
+```bash
+git clone https://github.com/natyrix/Refund-By-Location-Frontend.git
+cd Refund-By-Location-Frontend
+npm install --legacy-peer-deps
+npm start
+```
+
+## Flutter usage guide
+```bash
+git clone git clone https://github.com/natyrix/Refund-by-Location-Flutter.git
+cd Refund-by-Location-Flutter
+flutter pub get
+flutter run --no-sound-null-safety
+```
 
 ***
 
