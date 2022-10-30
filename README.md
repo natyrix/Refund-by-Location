@@ -56,10 +56,10 @@ The repository has a number of files including python scripts, jupyter notebooks
 - Front end submodule created using reactjs
 ***
 - Inbound Location
-<br>
+***
 ![Alt text](LcoationDetialMap.png?raw=true "Map")
 - Out of bound Location
-<br>
+***
 ![Alt text](LocationDetailMap3Outbound.png?raw=true "Map")
 
 
@@ -67,7 +67,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 - Mobile app submodule created using flutter
 ***
 - Inbound Location
-<br>
+***
 ![Alt text](HistoryWithBoundaries.jpg?raw=true "Map")
 
 ***
