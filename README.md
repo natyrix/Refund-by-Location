@@ -35,7 +35,6 @@ of the agreed GPS area, the contract state will be updated to indicate that it i
 out of compliance.
 
 
-![Alt text](img.png?raw=true "Map")
 
 ## About
 
@@ -57,8 +56,10 @@ The repository has a number of files including python scripts, jupyter notebooks
 - Front end submodule created using reactjs
 ***
 - Inbound Location
+<br>
 ![Alt text](LcoationDetialMap.png?raw=true "Map")
 - Out of bound Location
+<br>
 ![Alt text](LocationDetailMap3Outbound.png?raw=true "Map")
 
 
@@ -66,6 +67,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 - Mobile app submodule created using flutter
 ***
 - Inbound Location
+<br>
 ![Alt text](HistoryWithBoundaries.jpg?raw=true "Map")
 
 ***
