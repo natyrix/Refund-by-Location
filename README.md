@@ -56,6 +56,7 @@ The repository has a number of files including python scripts, jupyter notebooks
 - Front end submodule created using reactjs
 ***
 ![Alt text](LcoationDetialMap.png?raw=true "Map")
+![Alt text](LocationDetailMap3Outbound.png?raw=true "Map")
 
 
 ### Refund-By-Location-Flutter
