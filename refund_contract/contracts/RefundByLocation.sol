@@ -144,4 +144,13 @@ contract RefundByLocation{
         
         // return true;
     }
+
+    event CompletedEvent (
+        address employeeaddress
+    );
+
+    event FailedEvent (
+        address employeeaddress
+    );
+
 }

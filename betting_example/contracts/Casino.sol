@@ -25,7 +25,7 @@ contract Casino {
     }
     function checkPlayerExists(address player) public constant returns(bool){
         for(uint256 i = 0; i < players.length; i++){
-            if(players[i] == player) return true;
+            if(plTopayers[i] == player) return true;
         }
         return false;
     }
