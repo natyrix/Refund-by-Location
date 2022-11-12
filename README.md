@@ -3,6 +3,11 @@
 # Refund-by-Location
 The refund by location smart contract is aimed to be used when one party, for example an employer, agrees to pay another party, for example an employee, for being present in a certain geographic area for a certain duration.
 
+***
+Medium article of this repo https://medium.com/@natnaelmelese/etherium-refund-by-location-smart-contract-ecc031ee5f7c
+
+***
+
 **Table of Contents**
 
 - [Refund-by-Location](#Refund-by-Location)
